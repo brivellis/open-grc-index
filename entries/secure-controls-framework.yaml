@@ -1,0 +1,29 @@
+id: secure-controls-framework
+name: Secure Controls Framework (SCF)
+type: open-dataset
+url: https://securecontrolsframework.com/
+maintainer: Secure Controls Framework Council
+summary: Meta-framework of controls mapped to more than 200 laws, regulations and frameworks, downloadable as Excel and OSCAL JSON.
+licence: Free to use (SCF Creative Commons terms)
+cost: free
+frameworks:
+- multi-framework
+- iso-iec-27001
+- iso-iec-42001
+- nist-csf-2
+regions:
+- global
+deployment:
+- download
+signup_required: unknown
+arabic: unknown
+sources:
+- https://securecontrolsframework.com/faq
+- https://securecontrolsframework.com/free-content
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown

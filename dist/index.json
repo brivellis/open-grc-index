@@ -1,0 +1,777 @@
+{
+  "name": "Brivellis Open GRC Index",
+  "description": "A free, open index of GRC resources: open-source tools, free templates and kits, free courses, MCP servers, open datasets and official guidance. Alphabetical; nothing is ranked; nothing is paid.",
+  "homepage": "https://brivellis.com/index/",
+  "source": "https://github.com/brivellis/open-grc-index",
+  "data_licence": "CC-BY-4.0",
+  "last_checked": "2026-11-14",
+  "count": 22,
+  "types": {
+    "open-source-tool": "Open-source tool",
+    "free-template": "Free template or kit",
+    "free-course": "Free course",
+    "mcp-server": "MCP server or AI connector",
+    "open-dataset": "Open dataset or mapping",
+    "official-guidance": "Official free guidance"
+  },
+  "entries": [
+    {
+      "id": "acceptable-use-policy-template",
+      "name": "Acceptable Use Policy template",
+      "type": "free-template",
+      "url": "https://github.com/brivellis/free-templates/releases/tag/aup-v1.0",
+      "source_url": "https://github.com/brivellis/free-templates",
+      "summary": "Editable acceptable use policy for staff use of IT and information, with an annex that maps sections to ISO/IEC 27001 control numbers.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-27001"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://github.com/brivellis/free-templates",
+        "https://github.com/brivellis/free-templates/releases/tag/aup-v1.0"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "aims-starter-kit-iso42001",
+      "name": "AIMS Starter Kit for ISO/IEC 42001:2023",
+      "type": "free-template",
+      "url": "https://brivellis.com/resources/aims-starter-kit-iso-42001/",
+      "source_url": "https://github.com/brivellis/aims-starter-kit-iso42001",
+      "summary": "Starter document set for an AI management system, with an AI system register, risk and impact templates, and a completed example for a fictional company.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-42001"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://brivellis.com/resources/aims-starter-kit-iso-42001/",
+        "https://github.com/brivellis/aims-starter-kit-iso42001"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "bcms-in-practice-course",
+      "name": "BCMS in Practice (free course)",
+      "type": "free-course",
+      "url": "https://www.youtube.com/playlist?list=PLYr1dJPVD9cI",
+      "summary": "27 short lessons that build a business continuity management system with the BCMS Starter Kit and a fictional company.",
+      "licence": "Free to watch",
+      "cost": "free",
+      "frameworks": [
+        "iso-22301"
+      ],
+      "deployment": [
+        "online-course"
+      ],
+      "sources": [
+        "https://github.com/brivellis/bcms-starter-kit-iso22301",
+        "https://www.youtube.com/playlist?list=PLYr1dJPVD9cI"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "bcms-starter-kit-iso22301",
+      "name": "BCMS Starter Kit for ISO 22301:2019",
+      "type": "free-template",
+      "url": "https://brivellis.com/resources/bcms-starter-kit-iso-22301/",
+      "source_url": "https://github.com/brivellis/bcms-starter-kit-iso22301",
+      "summary": "Starter document set for a business continuity management system, including a business impact analysis and a worked example for a fictional company.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-22301"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://brivellis.com/resources/bcms-starter-kit-iso-22301/",
+        "https://github.com/brivellis/bcms-starter-kit-iso22301"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "ciso-assistant-community",
+      "name": "CISO Assistant Community Edition",
+      "type": "open-source-tool",
+      "url": "https://github.com/intuitem/ciso-assistant-community",
+      "maintainer": "intuitem",
+      "summary": "Self-hosted GRC platform with a large built-in library of frameworks, covering risk assessment, audits, applicability and evidence.",
+      "licence": "AGPL-3.0 (community edition)",
+      "cost": "open-source",
+      "frameworks": [
+        "multi-framework",
+        "iso-iec-27001",
+        "iso-22301",
+        "iso-iec-42001",
+        "nca-ecc",
+        "sama-csf",
+        "ksa-pdpl"
+      ],
+      "regions": [
+        "global",
+        "ksa"
+      ],
+      "deployment": [
+        "self-hosted"
+      ],
+      "arabic": "unknown",
+      "ai_ready": {
+        "mcp": "yes",
+        "mcp_source": "https://github.com/intuitem/ciso-assistant-community#readme",
+        "api": "yes",
+        "api_source": "https://github.com/intuitem/ciso-assistant-community#readme",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://github.com/intuitem/ciso-assistant-community",
+        "https://github.com/intuitem/ciso-assistant-community/blob/main/LICENSE.md"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "comp-ai-community",
+      "name": "Comp AI Community Edition",
+      "type": "open-source-tool",
+      "url": "https://github.com/trycompai/comp",
+      "maintainer": "Comp AI",
+      "summary": "Self-hosted compliance platform for evidence collection, policy management and control implementation, covering ISO/IEC 27001 among other frameworks.",
+      "licence": "AGPL-3.0",
+      "cost": "open-source",
+      "frameworks": [
+        "iso-iec-27001",
+        "multi-framework"
+      ],
+      "regions": [
+        "global"
+      ],
+      "deployment": [
+        "self-hosted"
+      ],
+      "arabic": "unknown",
+      "sources": [
+        "https://github.com/trycompai/comp",
+        "https://github.com/trycompai/comp/blob/main/LICENSE"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
+      "id": "compliance-trestle",
+      "name": "Compliance Trestle",
+      "type": "open-source-tool",
+      "url": "https://github.com/oscal-compass/compliance-trestle",
+      "maintainer": "OSCAL Compass",
+      "summary": "Command-line tool for managing compliance content as code in the OSCAL formats: catalogues, profiles, component definitions and assessments.",
+      "licence": "Apache-2.0",
+      "cost": "open-source",
+      "frameworks": [
+        "multi-framework"
+      ],
+      "regions": [
+        "global"
+      ],
+      "deployment": [
+        "self-hosted"
+      ],
+      "arabic": "no",
+      "sources": [
+        "https://github.com/oscal-compass/compliance-trestle",
+        "https://github.com/oscal-compass/compliance-trestle/blob/main/LICENSE"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
+      "id": "cybersecurity-awareness-kit",
+      "name": "Cybersecurity Awareness Programme Kit",
+      "type": "free-template",
+      "url": "https://brivellis.com/resources/cybersecurity-awareness-kit/",
+      "source_url": "https://github.com/brivellis/cybersecurity-awareness-kit",
+      "summary": "Templates to plan, run and evidence a security awareness programme, including a policy and a 12-month plan.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-27001"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://brivellis.com/resources/cybersecurity-awareness-kit/",
+        "https://github.com/brivellis/cybersecurity-awareness-kit"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "nca-ecc",
+      "name": "Essential Cybersecurity Controls (ECC 2-2024)",
+      "type": "official-guidance",
+      "url": "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
+      "maintainer": "National Cybersecurity Authority (Saudi Arabia)",
+      "summary": "Saudi Arabia's national baseline of cybersecurity controls, with a free implementation guide, published by the regulator.",
+      "licence": "Public-sector document",
+      "cost": "free",
+      "frameworks": [
+        "nca-ecc"
+      ],
+      "regions": [
+        "gcc",
+        "ksa"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "yes",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
+        "https://cdn.nca.gov.sa/api/files/public/upload/86e09090-44e4-481f-bc28-355673607654_ECC--2024-EN.pdf",
+        "https://cdn.nca.gov.sa/api/public/cms/files/e4c81aa9-a609-4823-abab-347283e29731_ECC-2-2024-AR-19092024-.pdf"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "isms-in-practice-course",
+      "name": "ISMS in Practice (free course)",
+      "type": "free-course",
+      "url": "https://www.youtube.com/playlist?list=PLIxmkmdCRYPk",
+      "summary": "26 short lessons that build an information security management system step by step with the ISMS Starter Kit and a fictional company.",
+      "licence": "Free to watch",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-27001"
+      ],
+      "deployment": [
+        "online-course"
+      ],
+      "sources": [
+        "https://github.com/brivellis/isms-starter-kit-iso27001",
+        "https://www.youtube.com/playlist?list=PLIxmkmdCRYPk"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "isms-starter-kit-iso27001",
+      "name": "ISMS Starter Kit for ISO/IEC 27001:2022",
+      "type": "free-template",
+      "url": "https://brivellis.com/resources/isms-starter-kit-iso-27001/",
+      "source_url": "https://github.com/brivellis/isms-starter-kit-iso27001",
+      "summary": "13 files for an information security management system, built around one fictional company so you can see a completed example before writing your own.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-27001"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://brivellis.com/resources/isms-starter-kit-iso-27001/",
+        "https://github.com/brivellis/isms-starter-kit-iso27001"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "iso27k-toolkit",
+      "name": "ISO27k Toolkit",
+      "type": "free-template",
+      "url": "https://iso27001security.com/html/toolkit.html",
+      "maintainer": "ISO27k Forum",
+      "summary": "Free collection of ISMS templates, checklists, a risk register, a Statement of Applicability workbook and skeleton policies contributed by forum members.",
+      "licence": "CC-BY-NC-SA-4.0",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-27001"
+      ],
+      "regions": [
+        "global"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "arabic": "no",
+      "sources": [
+        "https://iso27001security.com/html/toolkit.html",
+        "https://www.iso27001security.com/ISO27k_Toolkit_terms_and_conditions_of_use.pdf"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
+      "id": "nist-ai-rmf-iso42001-crosswalk",
+      "name": "NIST AI RMF to ISO/IEC 42001 crosswalk",
+      "type": "official-guidance",
+      "url": "https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf",
+      "maintainer": "NIST AI Resource Center",
+      "summary": "Maps the AI Risk Management Framework's functions and subcategories to the ISO/IEC 42001 AI management system (prepared against the final draft).",
+      "licence": "US Government work",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-42001"
+      ],
+      "regions": [
+        "global",
+        "us"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "no",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "nist-csf-2",
+      "name": "NIST Cybersecurity Framework (CSF) 2.0",
+      "type": "official-guidance",
+      "url": "https://www.nist.gov/cyberframework",
+      "maintainer": "NIST",
+      "summary": "The CSF 2.0 core, profiles, quick-start guides and informative references, published free by NIST.",
+      "licence": "US Government work",
+      "cost": "free",
+      "frameworks": [
+        "nist-csf-2"
+      ],
+      "regions": [
+        "global",
+        "us"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "unknown",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://www.nist.gov/cyberframework"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "oscal",
+      "name": "OSCAL (Open Security Controls Assessment Language)",
+      "type": "open-dataset",
+      "url": "https://pages.nist.gov/OSCAL/",
+      "source_url": "https://github.com/usnistgov/OSCAL",
+      "maintainer": "NIST",
+      "summary": "Machine-readable formats (XML, JSON, YAML) for control catalogues, baselines, system security plans and assessment results.",
+      "licence": "CC0-1.0 (public domain)",
+      "cost": "open-source",
+      "frameworks": [
+        "multi-framework"
+      ],
+      "regions": [
+        "global",
+        "us"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "arabic": "no",
+      "sources": [
+        "https://github.com/usnistgov/OSCAL",
+        "https://github.com/usnistgov/OSCAL/blob/main/LICENSE.md"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
+      "id": "probo",
+      "name": "Probo",
+      "type": "open-source-tool",
+      "url": "https://www.probo.com/",
+      "source_url": "https://github.com/getprobo/probo",
+      "maintainer": "Probo",
+      "summary": "Self-hostable GRC platform covering risks, controls, vendors, data privacy, access reviews and audits, with a Statement of Applicability and a CLI.",
+      "licence": "MIT",
+      "cost": "open-source",
+      "frameworks": [
+        "multi-framework"
+      ],
+      "regions": [
+        "global"
+      ],
+      "deployment": [
+        "self-hosted"
+      ],
+      "arabic": "unknown",
+      "ai_ready": {
+        "mcp": "yes",
+        "mcp_source": "https://www.probo.com/docs/developers/api/mcp/overview",
+        "api": "yes",
+        "api_source": "https://github.com/getprobo/probo#readme",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://github.com/getprobo/probo",
+        "https://github.com/getprobo/probo/blob/main/LICENSE"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "readiness-checklists",
+      "name": "Readiness Checklists",
+      "type": "free-template",
+      "url": "https://github.com/brivellis/free-templates/releases/tag/checklists-v1.0",
+      "source_url": "https://github.com/brivellis/free-templates",
+      "summary": "Excel checklists to gauge readiness before an audit, one per framework.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-20000-1",
+        "iso-iec-27001",
+        "iso-22301",
+        "nist-csf-2"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://github.com/brivellis/free-templates",
+        "https://github.com/brivellis/free-templates/releases/tag/checklists-v1.0"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "sama-csf",
+      "name": "SAMA Cyber Security Framework",
+      "type": "official-guidance",
+      "url": "https://rulebook.sama.gov.sa/en/entiresection/3850",
+      "maintainer": "Saudi Central Bank (SAMA)",
+      "summary": "Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook and as a PDF.",
+      "licence": "Public-sector document",
+      "cost": "free",
+      "frameworks": [
+        "sama-csf"
+      ],
+      "regions": [
+        "gcc",
+        "ksa"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "unknown",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://rulebook.sama.gov.sa/en/entiresection/3850",
+        "https://www.sama.gov.sa/en-US/Laws/FinanceRules/SAMA%20Cyber%20Security%20Framework%20v1.0%20final_updated.pdf"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "secure-controls-framework",
+      "name": "Secure Controls Framework (SCF)",
+      "type": "open-dataset",
+      "url": "https://securecontrolsframework.com/",
+      "maintainer": "Secure Controls Framework Council",
+      "summary": "Meta-framework of controls mapped to more than 200 laws, regulations and frameworks, downloadable as Excel and OSCAL JSON.",
+      "licence": "Free to use (SCF Creative Commons terms)",
+      "cost": "free",
+      "frameworks": [
+        "multi-framework",
+        "iso-iec-27001",
+        "iso-iec-42001",
+        "nist-csf-2"
+      ],
+      "regions": [
+        "global"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "signup_required": "unknown",
+      "arabic": "unknown",
+      "sources": [
+        "https://securecontrolsframework.com/faq",
+        "https://securecontrolsframework.com/free-content"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
+      "id": "sms-in-practice-course",
+      "name": "SMS in Practice (free course)",
+      "type": "free-course",
+      "url": "https://www.youtube.com/playlist?list=PLVQEEboJlIDI",
+      "summary": "26 short lessons that implement a service management system step by step with the SMS Starter Kit.",
+      "licence": "Free to watch",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-20000-1"
+      ],
+      "deployment": [
+        "online-course"
+      ],
+      "sources": [
+        "https://github.com/brivellis/iso20000-starter-kit",
+        "https://www.youtube.com/playlist?list=PLVQEEboJlIDI"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "sms-starter-kit-iso20000",
+      "name": "SMS Starter Kit for ISO/IEC 20000-1:2018",
+      "type": "free-template",
+      "url": "https://brivellis.com/resources/iso-20000-starter-kit/",
+      "source_url": "https://github.com/brivellis/iso20000-starter-kit",
+      "summary": "17 templates and worked examples for a service management system, from scope statement to service catalogue.",
+      "licence": "Free for internal use (kit terms)",
+      "cost": "free",
+      "frameworks": [
+        "iso-iec-20000-1"
+      ],
+      "deployment": [
+        "download"
+      ],
+      "sources": [
+        "https://brivellis.com/resources/iso-20000-starter-kit/",
+        "https://github.com/brivellis/iso20000-starter-kit"
+      ],
+      "house": true,
+      "maintainer": "Brivellis",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "no"
+      },
+      "arabic": "no",
+      "regions": [
+        "global"
+      ],
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    },
+    {
+      "id": "uae-ia-regulation",
+      "name": "UAE Information Assurance Regulation",
+      "type": "official-guidance",
+      "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation",
+      "maintainer": "UAE Government (developed by TDRA)",
+      "summary": "National information assurance requirements for UAE government entities and critical sectors, published free by the UAE Government.",
+      "licence": "Public-sector document",
+      "cost": "free",
+      "frameworks": [
+        "uae-ia"
+      ],
+      "regions": [
+        "gcc",
+        "uae"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "unknown",
+      "ai_ready": {
+        "mcp": "no",
+        "api": "no",
+        "llms_txt": "unknown"
+      },
+      "sources": [
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation",
+        "https://government.ae/-/media/guidelines/Guidelines-2020/UAE-IA-Regulation-v11-1.pdf"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no"
+    }
+  ]
+}

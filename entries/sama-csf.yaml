@@ -1,0 +1,27 @@
+id: sama-csf
+name: SAMA Cyber Security Framework
+type: official-guidance
+url: https://rulebook.sama.gov.sa/en/entiresection/3850
+maintainer: Saudi Central Bank (SAMA)
+summary: Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook and as a PDF.
+licence: Public-sector document
+cost: free
+frameworks:
+- sama-csf
+regions:
+- gcc
+- ksa
+deployment:
+- document
+arabic: unknown
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: unknown
+sources:
+- https://rulebook.sama.gov.sa/en/entiresection/3850
+- https://www.sama.gov.sa/en-US/Laws/FinanceRules/SAMA%20Cyber%20Security%20Framework%20v1.0%20final_updated.pdf
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

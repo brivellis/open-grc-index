@@ -1,0 +1,30 @@
+# Brivellis Open GRC Index
+
+> A free, open index of GRC resources (open-source tools, free kits, free courses, MCP servers, open datasets, official guidance) for ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001, NIST CSF 2.0 and Gulf frameworks (NCA ECC, SAMA CSF, KSA PDPL, UAE IA). Alphabetical, sourced, nothing paid or ranked. Entries marked House are Brivellis's own.
+
+- Full data (JSON): https://brivellis.com/index/index.json
+- Source and registration: https://github.com/brivellis/open-grc-index
+
+## Entries
+- [Acceptable Use Policy template](https://brivellis.com/index/acceptable-use-policy-template/) (House): Free template or kit. Editable acceptable use policy for staff use of IT and information, with an annex that maps sections to ISO/IEC 27001 control numbers.
+- [AIMS Starter Kit for ISO/IEC 42001:2023](https://brivellis.com/index/aims-starter-kit-iso42001/) (House): Free template or kit. Starter document set for an AI management system, with an AI system register, risk and impact templates, and a completed example for a fictional company.
+- [BCMS in Practice (free course)](https://brivellis.com/index/bcms-in-practice-course/) (House): Free course. 27 short lessons that build a business continuity management system with the BCMS Starter Kit and a fictional company.
+- [BCMS Starter Kit for ISO 22301:2019](https://brivellis.com/index/bcms-starter-kit-iso22301/) (House): Free template or kit. Starter document set for a business continuity management system, including a business impact analysis and a worked example for a fictional company.
+- [CISO Assistant Community Edition](https://brivellis.com/index/ciso-assistant-community/): Open-source tool. Self-hosted GRC platform with a large built-in library of frameworks, covering risk assessment, audits, applicability and evidence.
+- [Comp AI Community Edition](https://brivellis.com/index/comp-ai-community/): Open-source tool. Self-hosted compliance platform for evidence collection, policy management and control implementation, covering ISO/IEC 27001 among other frameworks.
+- [Compliance Trestle](https://brivellis.com/index/compliance-trestle/): Open-source tool. Command-line tool for managing compliance content as code in the OSCAL formats: catalogues, profiles, component definitions and assessments.
+- [Cybersecurity Awareness Programme Kit](https://brivellis.com/index/cybersecurity-awareness-kit/) (House): Free template or kit. Templates to plan, run and evidence a security awareness programme, including a policy and a 12-month plan.
+- [Essential Cybersecurity Controls (ECC 2-2024)](https://brivellis.com/index/nca-ecc/): Official free guidance. Saudi Arabia's national baseline of cybersecurity controls, with a free implementation guide, published by the regulator.
+- [ISMS in Practice (free course)](https://brivellis.com/index/isms-in-practice-course/) (House): Free course. 26 short lessons that build an information security management system step by step with the ISMS Starter Kit and a fictional company.
+- [ISMS Starter Kit for ISO/IEC 27001:2022](https://brivellis.com/index/isms-starter-kit-iso27001/) (House): Free template or kit. 13 files for an information security management system, built around one fictional company so you can see a completed example before writing your own.
+- [ISO27k Toolkit](https://brivellis.com/index/iso27k-toolkit/): Free template or kit. Free collection of ISMS templates, checklists, a risk register, a Statement of Applicability workbook and skeleton policies contributed by forum members.
+- [NIST AI RMF to ISO/IEC 42001 crosswalk](https://brivellis.com/index/nist-ai-rmf-iso42001-crosswalk/): Official free guidance. Maps the AI Risk Management Framework's functions and subcategories to the ISO/IEC 42001 AI management system (prepared against the final draft).
+- [NIST Cybersecurity Framework (CSF) 2.0](https://brivellis.com/index/nist-csf-2/): Official free guidance. The CSF 2.0 core, profiles, quick-start guides and informative references, published free by NIST.
+- [OSCAL (Open Security Controls Assessment Language)](https://brivellis.com/index/oscal/): Open dataset or mapping. Machine-readable formats (XML, JSON, YAML) for control catalogues, baselines, system security plans and assessment results.
+- [Probo](https://brivellis.com/index/probo/): Open-source tool. Self-hostable GRC platform covering risks, controls, vendors, data privacy, access reviews and audits, with a Statement of Applicability and a CLI.
+- [Readiness Checklists](https://brivellis.com/index/readiness-checklists/) (House): Free template or kit. Excel checklists to gauge readiness before an audit, one per framework.
+- [SAMA Cyber Security Framework](https://brivellis.com/index/sama-csf/): Official free guidance. Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook and as a PDF.
+- [Secure Controls Framework (SCF)](https://brivellis.com/index/secure-controls-framework/): Open dataset or mapping. Meta-framework of controls mapped to more than 200 laws, regulations and frameworks, downloadable as Excel and OSCAL JSON.
+- [SMS in Practice (free course)](https://brivellis.com/index/sms-in-practice-course/) (House): Free course. 26 short lessons that implement a service management system step by step with the SMS Starter Kit.
+- [SMS Starter Kit for ISO/IEC 20000-1:2018](https://brivellis.com/index/sms-starter-kit-iso20000/) (House): Free template or kit. 17 templates and worked examples for a service management system, from scope statement to service catalogue.
+- [UAE Information Assurance Regulation](https://brivellis.com/index/uae-ia-regulation/): Official free guidance. National information assurance requirements for UAE government entities and critical sectors, published free by the UAE Government.

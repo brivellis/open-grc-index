@@ -1,0 +1,26 @@
+id: nist-ai-rmf-iso42001-crosswalk
+name: NIST AI RMF to ISO/IEC 42001 crosswalk
+type: official-guidance
+url: https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf
+maintainer: NIST AI Resource Center
+summary: Maps the AI Risk Management Framework's functions and subcategories to the ISO/IEC 42001 AI management system (prepared against the final draft).
+licence: US Government work
+cost: free
+frameworks:
+- iso-iec-42001
+regions:
+- global
+- us
+deployment:
+- document
+arabic: 'no'
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: unknown
+sources:
+- https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

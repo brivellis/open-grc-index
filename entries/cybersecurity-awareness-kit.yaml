@@ -1,0 +1,27 @@
+id: cybersecurity-awareness-kit
+name: Cybersecurity Awareness Programme Kit
+type: free-template
+url: https://brivellis.com/resources/cybersecurity-awareness-kit/
+source_url: https://github.com/brivellis/cybersecurity-awareness-kit
+summary: Templates to plan, run and evidence a security awareness programme, including a policy and a 12-month plan.
+licence: Free for internal use (kit terms)
+cost: free
+frameworks:
+- iso-iec-27001
+deployment:
+- download
+sources:
+- https://brivellis.com/resources/cybersecurity-awareness-kit/
+- https://github.com/brivellis/cybersecurity-awareness-kit
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

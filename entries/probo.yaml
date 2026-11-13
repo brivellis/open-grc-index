@@ -1,0 +1,29 @@
+id: probo
+name: Probo
+type: open-source-tool
+url: https://www.probo.com/
+source_url: https://github.com/getprobo/probo
+maintainer: Probo
+summary: Self-hostable GRC platform covering risks, controls, vendors, data privacy, access reviews and audits, with a Statement of Applicability and a CLI.
+licence: MIT
+cost: open-source
+frameworks:
+- multi-framework
+regions:
+- global
+deployment:
+- self-hosted
+arabic: unknown
+ai_ready:
+  mcp: 'yes'
+  mcp_source: https://www.probo.com/docs/developers/api/mcp/overview
+  api: 'yes'
+  api_source: https://github.com/getprobo/probo#readme
+  llms_txt: unknown
+sources:
+- https://github.com/getprobo/probo
+- https://github.com/getprobo/probo/blob/main/LICENSE
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

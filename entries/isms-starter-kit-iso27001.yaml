@@ -1,0 +1,27 @@
+id: isms-starter-kit-iso27001
+name: ISMS Starter Kit for ISO/IEC 27001:2022
+type: free-template
+url: https://brivellis.com/resources/isms-starter-kit-iso-27001/
+source_url: https://github.com/brivellis/isms-starter-kit-iso27001
+summary: 13 files for an information security management system, built around one fictional company so you can see a completed example before writing your own.
+licence: Free for internal use (kit terms)
+cost: free
+frameworks:
+- iso-iec-27001
+deployment:
+- download
+sources:
+- https://brivellis.com/resources/isms-starter-kit-iso-27001/
+- https://github.com/brivellis/isms-starter-kit-iso27001
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

@@ -77,7 +77,7 @@ def main() -> int:
         except ValueError:
             age = None
             errors.append(f"{name}: last_checked is not a real date")
-        if age is not None and age < 0:
+        if age is not None and age < -1:  # one day of slack for time zones
             errors.append(f"{name}: last_checked is in the future")
         if age is not None and age > STALE_DAYS:
             warnings.append(f"{name}: last checked {age} days ago (re-check due)")

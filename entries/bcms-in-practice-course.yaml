@@ -1,0 +1,26 @@
+id: bcms-in-practice-course
+name: BCMS in Practice (free course)
+type: free-course
+url: https://www.youtube.com/playlist?list=PLYr1dJPVD9cI
+summary: 27 short lessons that build a business continuity management system with the BCMS Starter Kit and a fictional company.
+licence: Free to watch
+cost: free
+frameworks:
+- iso-22301
+deployment:
+- online-course
+sources:
+- https://github.com/brivellis/bcms-starter-kit-iso22301
+- https://www.youtube.com/playlist?list=PLYr1dJPVD9cI
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'
