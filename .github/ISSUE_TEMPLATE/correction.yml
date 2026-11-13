@@ -1,0 +1,33 @@
+name: Correct or remove an entry
+description: Report a wrong fact, a broken link, or ask for your entry to be removed.
+title: "Correction: <entry id>"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Removal requests from a maintainer are always honoured. **Do not put personal data in this issue** — it is public.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry id or name
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What needs to change?
+      options:
+        - A fact is wrong
+        - A link is broken
+        - The resource no longer meets the listing rules
+        - Remove my entry (I maintain this resource)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and a public source
+      description: What should it say, and a link that shows it.
+    validations:
+      required: true
