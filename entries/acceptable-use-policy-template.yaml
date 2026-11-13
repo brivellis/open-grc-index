@@ -8,6 +8,7 @@ licence: Free for internal use (kit terms)
 cost: free
 frameworks:
 - iso-iec-27001
+- nist-csf-2
 deployment:
 - download
 sources:

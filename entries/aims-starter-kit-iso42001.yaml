@@ -3,7 +3,7 @@ name: AIMS Starter Kit for ISO/IEC 42001:2023
 type: free-template
 url: https://brivellis.com/resources/aims-starter-kit-iso-42001/
 source_url: https://github.com/brivellis/aims-starter-kit-iso42001
-summary: Starter document set for an AI management system, with an AI system register, risk and impact templates, and a completed example for a fictional company.
+summary: Starter document set for an AI management system, with an AI system inventory, risk and impact templates, and a completed example for a fictional company.
 licence: Free for internal use (kit terms)
 cost: free
 frameworks:

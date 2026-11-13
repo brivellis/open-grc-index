@@ -25,7 +25,8 @@
       "licence": "Free for internal use (kit terms)",
       "cost": "free",
       "frameworks": [
-        "iso-iec-27001"
+        "iso-iec-27001",
+        "nist-csf-2"
       ],
       "deployment": [
         "download"
@@ -55,7 +56,7 @@
       "type": "free-template",
       "url": "https://brivellis.com/resources/aims-starter-kit-iso-42001/",
       "source_url": "https://github.com/brivellis/aims-starter-kit-iso42001",
-      "summary": "Starter document set for an AI management system, with an AI system register, risk and impact templates, and a completed example for a fictional company.",
+      "summary": "Starter document set for an AI management system, with an AI system inventory, risk and impact templates, and a completed example for a fictional company.",
       "licence": "Free for internal use (kit terms)",
       "cost": "free",
       "frameworks": [
@@ -122,7 +123,7 @@
       "type": "free-template",
       "url": "https://brivellis.com/resources/bcms-starter-kit-iso-22301/",
       "source_url": "https://github.com/brivellis/bcms-starter-kit-iso22301",
-      "summary": "Starter document set for a business continuity management system, including a business impact analysis and a worked example for a fictional company.",
+      "summary": "Starter document set for a business continuity management system, including an impact analysis workbook and a worked example for a fictional company.",
       "licence": "Free for internal use (kit terms)",
       "cost": "free",
       "frameworks": [
@@ -164,6 +165,7 @@
         "iso-iec-27001",
         "iso-22301",
         "iso-iec-42001",
+        "nist-csf-2",
         "nca-ecc",
         "sama-csf",
         "ksa-pdpl"
@@ -175,17 +177,19 @@
       "deployment": [
         "self-hosted"
       ],
-      "arabic": "unknown",
+      "arabic": "yes",
       "ai_ready": {
         "mcp": "yes",
-        "mcp_source": "https://github.com/intuitem/ciso-assistant-community#readme",
+        "mcp_source": "https://github.com/intuitem/ciso-assistant-community/blob/main/cli/README.md",
         "api": "yes",
         "api_source": "https://github.com/intuitem/ciso-assistant-community#readme",
         "llms_txt": "unknown"
       },
       "sources": [
         "https://github.com/intuitem/ciso-assistant-community",
-        "https://github.com/intuitem/ciso-assistant-community/blob/main/LICENSE.md"
+        "https://github.com/intuitem/ciso-assistant-community/blob/main/LICENSE.md",
+        "https://github.com/intuitem/ciso-assistant-community/blob/main/cli/README.md",
+        "https://github.com/intuitem/ciso-assistant-community/blob/main/frontend/messages/ar.json"
       ],
       "house": false,
       "maintainer_text": false,
@@ -242,9 +246,10 @@
         "global"
       ],
       "deployment": [
-        "self-hosted"
+        "self-hosted",
+        "local-app"
       ],
-      "arabic": "no",
+      "arabic": "unknown",
       "sources": [
         "https://github.com/oscal-compass/compliance-trestle",
         "https://github.com/oscal-compass/compliance-trestle/blob/main/LICENSE"
@@ -269,7 +274,8 @@
       "licence": "Free for internal use (kit terms)",
       "cost": "free",
       "frameworks": [
-        "iso-iec-27001"
+        "iso-iec-27001",
+        "nist-csf-2"
       ],
       "deployment": [
         "download"
@@ -306,7 +312,6 @@
         "nca-ecc"
       ],
       "regions": [
-        "gcc",
         "ksa"
       ],
       "deployment": [
@@ -314,14 +319,15 @@
       ],
       "arabic": "yes",
       "ai_ready": {
-        "mcp": "no",
-        "api": "no",
+        "mcp": "unknown",
+        "api": "unknown",
         "llms_txt": "unknown"
       },
       "sources": [
         "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
         "https://cdn.nca.gov.sa/api/files/public/upload/86e09090-44e4-481f-bc28-355673607654_ECC--2024-EN.pdf",
-        "https://cdn.nca.gov.sa/api/public/cms/files/e4c81aa9-a609-4823-abab-347283e29731_ECC-2-2024-AR-19092024-.pdf"
+        "https://cdn.nca.gov.sa/api/public/cms/files/e4c81aa9-a609-4823-abab-347283e29731_ECC-2-2024-AR-19092024-.pdf",
+        "https://cdn.nca.gov.sa/api/files/public/upload/94c6c5f5-4d70-4afd-a440-64369aa667e2_Guide-to-Essential-Cybersecurity-Controls-(ECC)-Implementation-en.pdf"
       ],
       "house": false,
       "maintainer_text": false,
@@ -396,46 +402,13 @@
       "signup_required": "no"
     },
     {
-      "id": "iso27k-toolkit",
-      "name": "ISO27k Toolkit",
-      "type": "free-template",
-      "url": "https://iso27001security.com/html/toolkit.html",
-      "maintainer": "ISO27k Forum",
-      "summary": "Free collection of ISMS templates, checklists, a risk register, a Statement of Applicability workbook and skeleton policies contributed by forum members.",
-      "licence": "CC-BY-NC-SA-4.0",
-      "cost": "free",
-      "frameworks": [
-        "iso-iec-27001"
-      ],
-      "regions": [
-        "global"
-      ],
-      "deployment": [
-        "download"
-      ],
-      "arabic": "no",
-      "sources": [
-        "https://iso27001security.com/html/toolkit.html",
-        "https://www.iso27001security.com/ISO27k_Toolkit_terms_and_conditions_of_use.pdf"
-      ],
-      "house": false,
-      "maintainer_text": false,
-      "last_checked": "2026-11-14",
-      "signup_required": "no",
-      "ai_ready": {
-        "mcp": "unknown",
-        "api": "unknown",
-        "llms_txt": "unknown"
-      }
-    },
-    {
       "id": "nist-ai-rmf-iso42001-crosswalk",
       "name": "NIST AI RMF to ISO/IEC 42001 crosswalk",
-      "type": "official-guidance",
+      "type": "open-dataset",
       "url": "https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf",
-      "maintainer": "NIST AI Resource Center",
-      "summary": "Maps the AI Risk Management Framework's functions and subcategories to the ISO/IEC 42001 AI management system (prepared against the final draft).",
-      "licence": "US Government work",
+      "maintainer": "Microsoft (hosted by the NIST AI Resource Center)",
+      "summary": "Third-party crosswalk hosted by NIST that maps AI Risk Management Framework subcategories to ISO/IEC 42001 clause and control numbers (prepared against the final draft).",
+      "licence": "Free to use (terms not stated)",
       "cost": "free",
       "frameworks": [
         "iso-iec-42001"
@@ -447,13 +420,14 @@
       "deployment": [
         "document"
       ],
-      "arabic": "no",
+      "arabic": "unknown",
       "ai_ready": {
-        "mcp": "no",
-        "api": "no",
+        "mcp": "unknown",
+        "api": "unknown",
         "llms_txt": "unknown"
       },
       "sources": [
+        "https://airc.nist.gov/airmf-resources/crosswalks/",
         "https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf"
       ],
       "house": false,
@@ -480,14 +454,16 @@
       "deployment": [
         "document"
       ],
-      "arabic": "unknown",
+      "arabic": "yes",
       "ai_ready": {
-        "mcp": "no",
+        "mcp": "unknown",
         "api": "unknown",
         "llms_txt": "unknown"
       },
       "sources": [
-        "https://www.nist.gov/cyberframework"
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/cyberframework/translations",
+        "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ara.pdf"
       ],
       "house": false,
       "maintainer_text": false,
@@ -502,7 +478,7 @@
       "source_url": "https://github.com/usnistgov/OSCAL",
       "maintainer": "NIST",
       "summary": "Machine-readable formats (XML, JSON, YAML) for control catalogues, baselines, system security plans and assessment results.",
-      "licence": "CC0-1.0 (public domain)",
+      "licence": "CC0-1.0",
       "cost": "open-source",
       "frameworks": [
         "multi-framework"
@@ -514,7 +490,7 @@
       "deployment": [
         "download"
       ],
-      "arabic": "no",
+      "arabic": "unknown",
       "sources": [
         "https://github.com/usnistgov/OSCAL",
         "https://github.com/usnistgov/OSCAL/blob/main/LICENSE.md"
@@ -530,11 +506,42 @@
       }
     },
     {
+      "id": "ksa-pdpl-sdaia",
+      "name": "Personal Data Protection Law (SDAIA knowledge centre)",
+      "type": "official-guidance",
+      "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter",
+      "maintainer": "Saudi Data and AI Authority (SDAIA)",
+      "summary": "Official home of Saudi Arabia's personal data protection law, its implementing regulation, the data transfer regulation and guidelines.",
+      "licence": "Public-sector document",
+      "cost": "free",
+      "frameworks": [
+        "ksa-pdpl"
+      ],
+      "regions": [
+        "ksa"
+      ],
+      "deployment": [
+        "document"
+      ],
+      "arabic": "yes",
+      "sources": [
+        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter"
+      ],
+      "house": false,
+      "maintainer_text": false,
+      "last_checked": "2026-11-14",
+      "signup_required": "no",
+      "ai_ready": {
+        "mcp": "unknown",
+        "api": "unknown",
+        "llms_txt": "unknown"
+      }
+    },
+    {
       "id": "probo",
       "name": "Probo",
       "type": "open-source-tool",
-      "url": "https://www.probo.com/",
-      "source_url": "https://github.com/getprobo/probo",
+      "url": "https://github.com/getprobo/probo",
       "maintainer": "Probo",
       "summary": "Self-hostable GRC platform covering risks, controls, vendors, data privacy, access reviews and audits, with a Statement of Applicability and a CLI.",
       "licence": "MIT",
@@ -578,6 +585,7 @@
         "iso-iec-20000-1",
         "iso-iec-27001",
         "iso-22301",
+        "iso-iec-42001",
         "nist-csf-2"
       ],
       "deployment": [
@@ -608,14 +616,13 @@
       "type": "official-guidance",
       "url": "https://rulebook.sama.gov.sa/en/entiresection/3850",
       "maintainer": "Saudi Central Bank (SAMA)",
-      "summary": "Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook and as a PDF.",
+      "summary": "Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook.",
       "licence": "Public-sector document",
       "cost": "free",
       "frameworks": [
         "sama-csf"
       ],
       "regions": [
-        "gcc",
         "ksa"
       ],
       "deployment": [
@@ -623,13 +630,12 @@
       ],
       "arabic": "unknown",
       "ai_ready": {
-        "mcp": "no",
-        "api": "no",
+        "mcp": "unknown",
+        "api": "unknown",
         "llms_txt": "unknown"
       },
       "sources": [
-        "https://rulebook.sama.gov.sa/en/entiresection/3850",
-        "https://www.sama.gov.sa/en-US/Laws/FinanceRules/SAMA%20Cyber%20Security%20Framework%20v1.0%20final_updated.pdf"
+        "https://rulebook.sama.gov.sa/en/entiresection/3850"
       ],
       "house": false,
       "maintainer_text": false,
@@ -643,12 +649,11 @@
       "url": "https://securecontrolsframework.com/",
       "maintainer": "Secure Controls Framework Council",
       "summary": "Meta-framework of controls mapped to more than 200 laws, regulations and frameworks, downloadable as Excel and OSCAL JSON.",
-      "licence": "Free to use (SCF Creative Commons terms)",
+      "licence": "CC-BY-ND-4.0",
       "cost": "free",
       "frameworks": [
         "multi-framework",
         "iso-iec-27001",
-        "iso-iec-42001",
         "nist-csf-2"
       ],
       "regions": [
@@ -657,11 +662,12 @@
       "deployment": [
         "download"
       ],
-      "signup_required": "unknown",
+      "signup_required": "no",
       "arabic": "unknown",
       "sources": [
         "https://securecontrolsframework.com/faq",
-        "https://securecontrolsframework.com/free-content"
+        "https://securecontrolsframework.com/scf-download",
+        "https://securecontrolsframework.com/terms-conditions"
       ],
       "house": false,
       "maintainer_text": false,
@@ -711,7 +717,7 @@
       "type": "free-template",
       "url": "https://brivellis.com/resources/iso-20000-starter-kit/",
       "source_url": "https://github.com/brivellis/iso20000-starter-kit",
-      "summary": "17 templates and worked examples for a service management system, from scope statement to service catalogue.",
+      "summary": "17 templates and worked examples for a service management system, from a scope statement to a workbook with a service catalogue.",
       "licence": "Free for internal use (kit terms)",
       "cost": "free",
       "frameworks": [
@@ -745,14 +751,13 @@
       "type": "official-guidance",
       "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation",
       "maintainer": "UAE Government (developed by TDRA)",
-      "summary": "National information assurance requirements for UAE government entities and critical sectors, published free by the UAE Government.",
+      "summary": "Information assurance requirements for entities in the UAE, mandatory for those designated as critical; published on the UAE Government portal.",
       "licence": "Public-sector document",
       "cost": "free",
       "frameworks": [
         "uae-ia"
       ],
       "regions": [
-        "gcc",
         "uae"
       ],
       "deployment": [
@@ -760,13 +765,12 @@
       ],
       "arabic": "unknown",
       "ai_ready": {
-        "mcp": "no",
-        "api": "no",
+        "mcp": "unknown",
+        "api": "unknown",
         "llms_txt": "unknown"
       },
       "sources": [
-        "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation",
-        "https://government.ae/-/media/guidelines/Guidelines-2020/UAE-IA-Regulation-v11-1.pdf"
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation"
       ],
       "house": false,
       "maintainer_text": false,

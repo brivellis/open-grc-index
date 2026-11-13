@@ -1,8 +1,7 @@
 id: probo
 name: Probo
 type: open-source-tool
-url: https://www.probo.com/
-source_url: https://github.com/getprobo/probo
+url: https://github.com/getprobo/probo
 maintainer: Probo
 summary: Self-hostable GRC platform covering risks, controls, vendors, data privacy, access reviews and audits, with a Statement of Applicability and a CLI.
 licence: MIT

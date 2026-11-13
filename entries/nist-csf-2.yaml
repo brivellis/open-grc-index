@@ -13,13 +13,15 @@ regions:
 - us
 deployment:
 - document
-arabic: unknown
+arabic: 'yes'
 ai_ready:
-  mcp: 'no'
+  mcp: unknown
   api: unknown
   llms_txt: unknown
 sources:
 - https://www.nist.gov/cyberframework
+- https://www.nist.gov/cyberframework/translations
+- https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ara.pdf
 house: false
 maintainer_text: false
 last_checked: '2026-11-14'

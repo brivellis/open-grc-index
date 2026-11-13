@@ -12,7 +12,8 @@ regions:
 - global
 deployment:
 - self-hosted
-arabic: 'no'
+- local-app
+arabic: unknown
 sources:
 - https://github.com/oscal-compass/compliance-trestle
 - https://github.com/oscal-compass/compliance-trestle/blob/main/LICENSE

@@ -3,7 +3,7 @@ name: BCMS Starter Kit for ISO 22301:2019
 type: free-template
 url: https://brivellis.com/resources/bcms-starter-kit-iso-22301/
 source_url: https://github.com/brivellis/bcms-starter-kit-iso22301
-summary: Starter document set for a business continuity management system, including a business impact analysis and a worked example for a fictional company.
+summary: Starter document set for a business continuity management system, including an impact analysis workbook and a worked example for a fictional company.
 licence: Free for internal use (kit terms)
 cost: free
 frameworks:

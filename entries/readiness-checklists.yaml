@@ -10,6 +10,7 @@ frameworks:
 - iso-iec-20000-1
 - iso-iec-27001
 - iso-22301
+- iso-iec-42001
 - nist-csf-2
 deployment:
 - download
