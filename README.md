@@ -11,7 +11,7 @@ A free, open index of governance, risk and compliance (GRC) resources:
 
 It covers ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001 and NIST CSF 2.0, plus Gulf frameworks: NCA ECC, SAMA CSF, the Saudi PDPL and the UAE Information Assurance standard.
 
-The index is published at **https://brivellis.com/index/** and as data at **https://brivellis.com/index/index.json**.
+The index is published at **https://brivellis.com/open-grc-index/** and as data at **https://brivellis.com/open-grc-index/index.json**.
 
 ## How the index works
 - **Free to be listed, free to use.** Listings cannot be bought, and nothing is ranked.
@@ -27,7 +27,7 @@ The index is published at **https://brivellis.com/index/** and as data at **http
 3. Brivellis Editorial reviews it against the rules. We aim to answer within 7 days, and explain any refusal in the issue.
 4. Once listed, you can add the badge to your README or site:
 
-   [![Listed in the Brivellis Open GRC Index](badge/listed.svg)](https://brivellis.com/index/)
+   [![Listed in the Brivellis Open GRC Index](badge/listed.svg)](https://brivellis.com/open-grc-index/)
 
 ## Correct or remove an entry
 Open a **[correction issue](../../issues/new?template=correction.yml)**. Removal requests from a maintainer are always honoured.

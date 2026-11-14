@@ -14,7 +14,7 @@ import sys
 import yaml
 
 ROOT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
-SITE = "https://brivellis.com/index"
+SITE = "https://brivellis.com/open-grc-index"
 
 TYPE_LABELS = {
     "open-source-tool": "Open-source tool",

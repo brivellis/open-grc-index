@@ -1,7 +1,7 @@
 {
   "name": "Brivellis Open GRC Index",
   "description": "A free, open index of GRC resources: open-source tools, free templates and kits, free courses, MCP servers, open datasets and official guidance. Alphabetical; nothing is ranked; nothing is paid.",
-  "homepage": "https://brivellis.com/index/",
+  "homepage": "https://brivellis.com/open-grc-index/",
   "source": "https://github.com/brivellis/open-grc-index",
   "data_licence": "CC-BY-4.0",
   "last_checked": "2026-11-14",
