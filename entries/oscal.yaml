@@ -1,0 +1,28 @@
+id: oscal
+name: OSCAL (Open Security Controls Assessment Language)
+type: open-dataset
+url: https://pages.nist.gov/OSCAL/
+source_url: https://github.com/usnistgov/OSCAL
+maintainer: NIST
+summary: Machine-readable formats (XML, JSON, YAML) for control catalogues, baselines, system security plans and assessment results.
+licence: CC0-1.0
+cost: open-source
+frameworks:
+- multi-framework
+regions:
+- global
+- us
+deployment:
+- download
+arabic: unknown
+sources:
+- https://github.com/usnistgov/OSCAL
+- https://github.com/usnistgov/OSCAL/blob/main/LICENSE.md
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown

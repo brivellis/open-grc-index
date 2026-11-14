@@ -1,0 +1,26 @@
+id: sms-in-practice-course
+name: SMS in Practice (free course)
+type: free-course
+url: https://www.youtube.com/playlist?list=PLVQEEboJlIDI
+summary: 26 short lessons that implement a service management system step by step with the SMS Starter Kit.
+licence: Free to watch
+cost: free
+frameworks:
+- iso-iec-20000-1
+deployment:
+- online-course
+sources:
+- https://github.com/brivellis/iso20000-starter-kit
+- https://www.youtube.com/playlist?list=PLVQEEboJlIDI
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

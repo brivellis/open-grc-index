@@ -1,0 +1,27 @@
+id: sms-starter-kit-iso20000
+name: SMS Starter Kit for ISO/IEC 20000-1:2018
+type: free-template
+url: https://brivellis.com/resources/iso-20000-starter-kit/
+source_url: https://github.com/brivellis/iso20000-starter-kit
+summary: 17 templates and worked examples for a service management system, from a scope statement to a workbook with a service catalogue.
+licence: Free for internal use (kit terms)
+cost: free
+frameworks:
+- iso-iec-20000-1
+deployment:
+- download
+sources:
+- https://brivellis.com/resources/iso-20000-starter-kit/
+- https://github.com/brivellis/iso20000-starter-kit
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

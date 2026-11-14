@@ -1,0 +1,28 @@
+id: nist-csf-2
+name: NIST Cybersecurity Framework (CSF) 2.0
+type: official-guidance
+url: https://www.nist.gov/cyberframework
+maintainer: NIST
+summary: The CSF 2.0 core, profiles, quick-start guides and informative references, published free by NIST.
+licence: US Government work
+cost: free
+frameworks:
+- nist-csf-2
+regions:
+- global
+- us
+deployment:
+- document
+arabic: 'yes'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown
+sources:
+- https://www.nist.gov/cyberframework
+- https://www.nist.gov/cyberframework/translations
+- https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.ara.pdf
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

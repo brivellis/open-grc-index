@@ -1,0 +1,34 @@
+id: ciso-assistant-community
+name: CISO Assistant Community Edition
+type: open-source-tool
+url: https://github.com/intuitem/ciso-assistant-community
+maintainer: intuitem
+summary: Self-hosted GRC platform with a large built-in library of frameworks, covering risk assessment, audits, applicability and evidence.
+licence: AGPL-3.0 (community edition)
+cost: open-source
+frameworks:
+- multi-framework
+- iso-iec-27001
+- iso-22301
+- iso-iec-42001
+- nist-csf-2
+regions:
+- global
+deployment:
+- self-hosted
+arabic: 'yes'
+ai_ready:
+  mcp: 'yes'
+  mcp_source: https://github.com/intuitem/ciso-assistant-community/blob/main/cli/README.md
+  api: 'yes'
+  api_source: https://github.com/intuitem/ciso-assistant-community#readme
+  llms_txt: unknown
+sources:
+- https://github.com/intuitem/ciso-assistant-community
+- https://github.com/intuitem/ciso-assistant-community/blob/main/LICENSE.md
+- https://github.com/intuitem/ciso-assistant-community/blob/main/cli/README.md
+- https://github.com/intuitem/ciso-assistant-community/blob/main/frontend/messages/ar.json
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

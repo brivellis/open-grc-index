@@ -1,0 +1,31 @@
+id: readiness-checklists
+name: Readiness Checklists
+type: free-template
+url: https://github.com/brivellis/free-templates/releases/tag/checklists-v1.0
+source_url: https://github.com/brivellis/free-templates
+summary: Excel checklists to gauge readiness before an audit, one per framework.
+licence: Free for internal use (kit terms)
+cost: free
+frameworks:
+- iso-iec-20000-1
+- iso-iec-27001
+- iso-22301
+- iso-iec-42001
+- nist-csf-2
+deployment:
+- download
+sources:
+- https://github.com/brivellis/free-templates
+- https://github.com/brivellis/free-templates/releases/tag/checklists-v1.0
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

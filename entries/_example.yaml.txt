@@ -1,0 +1,31 @@
+# Example entry. Copy to entries/<id>.yaml and replace every value.
+# Fields are described in schema/entry.schema.json.
+id: example-grc-tool
+name: Example GRC Tool
+type: open-source-tool        # open-source-tool | free-template | free-course | mcp-server | open-dataset | official-guidance
+url: https://example.org/
+source_url: https://github.com/example/example-grc-tool
+maintainer: Example Project
+summary: Self-hosted tool for keeping a risk register and a Statement of Applicability, with exports to spreadsheet.
+licence: Apache-2.0
+cost: open-source             # open-source | free | free-tier
+frameworks:
+  - iso-iec-27001
+  - nist-csf-2
+regions:
+  - global
+deployment:
+  - self-hosted
+signup_required: "no"         # yes | no | unknown
+arabic: unknown               # yes | no | unknown
+ai_ready:
+  mcp: unknown                # yes needs mcp_source
+  api: "yes"
+  api_source: https://example.org/docs/api
+  llms_txt: unknown
+house: false
+maintainer_text: false
+last_checked: "2026-11-14"
+sources:
+  - https://example.org/
+  - https://github.com/example/example-grc-tool

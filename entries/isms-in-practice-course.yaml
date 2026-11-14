@@ -1,0 +1,26 @@
+id: isms-in-practice-course
+name: ISMS in Practice (free course)
+type: free-course
+url: https://www.youtube.com/playlist?list=PLIxmkmdCRYPk
+summary: 26 short lessons that build an information security management system step by step with the ISMS Starter Kit and a fictional company.
+licence: Free to watch
+cost: free
+frameworks:
+- iso-iec-27001
+deployment:
+- online-course
+sources:
+- https://github.com/brivellis/isms-starter-kit-iso27001
+- https://www.youtube.com/playlist?list=PLIxmkmdCRYPk
+house: true
+maintainer: Brivellis
+ai_ready:
+  mcp: 'no'
+  api: 'no'
+  llms_txt: 'no'
+arabic: 'no'
+regions:
+- global
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'
