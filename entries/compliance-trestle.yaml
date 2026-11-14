@@ -1,0 +1,27 @@
+id: compliance-trestle
+name: Compliance Trestle
+type: open-source-tool
+url: https://github.com/oscal-compass/compliance-trestle
+maintainer: OSCAL Compass
+summary: 'Command-line tool for managing compliance content as code in the OSCAL formats: catalogues, profiles, component definitions and assessments.'
+licence: Apache-2.0
+cost: open-source
+frameworks:
+- multi-framework
+regions:
+- global
+deployment:
+- self-hosted
+- local-app
+arabic: unknown
+sources:
+- https://github.com/oscal-compass/compliance-trestle
+- https://github.com/oscal-compass/compliance-trestle/blob/main/LICENSE
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown

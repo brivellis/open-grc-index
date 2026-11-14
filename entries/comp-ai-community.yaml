@@ -1,0 +1,27 @@
+id: comp-ai-community
+name: Comp AI Community Edition
+type: open-source-tool
+url: https://github.com/trycompai/comp
+maintainer: Comp AI
+summary: Self-hosted compliance platform for evidence collection, policy management and control implementation, covering ISO/IEC 27001 among other frameworks.
+licence: AGPL-3.0
+cost: open-source
+frameworks:
+- iso-iec-27001
+- multi-framework
+regions:
+- global
+deployment:
+- self-hosted
+arabic: unknown
+sources:
+- https://github.com/trycompai/comp
+- https://github.com/trycompai/comp/blob/main/LICENSE
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown

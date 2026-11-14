@@ -1,0 +1,26 @@
+name: Validate entries
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install checkers
+        run: pip install pyyaml==6.0.2 jsonschema==4.23.0
+      - name: Check entries against the schema and the listing rules
+        run: python3 scripts/validate.py
+      - name: Check dist/ is rebuilt from the entries
+        run: |
+          python3 scripts/build_index.py
+          git diff --exit-code -- dist/ || { echo "dist/ is out of date: run python3 scripts/build_index.py and commit dist/"; exit 1; }

@@ -1,0 +1,28 @@
+id: nca-ecc
+name: Essential Cybersecurity Controls (ECC 2-2024)
+type: official-guidance
+url: https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/
+maintainer: National Cybersecurity Authority (Saudi Arabia)
+summary: Saudi Arabia's national baseline of cybersecurity controls, with a free implementation guide, published by the regulator.
+licence: Public-sector document
+cost: free
+frameworks:
+- nca-ecc
+regions:
+- ksa
+deployment:
+- document
+arabic: 'yes'
+ai_ready:
+  mcp: unknown
+  api: unknown
+  llms_txt: unknown
+sources:
+- https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/
+- https://cdn.nca.gov.sa/api/files/public/upload/86e09090-44e4-481f-bc28-355673607654_ECC--2024-EN.pdf
+- https://cdn.nca.gov.sa/api/public/cms/files/e4c81aa9-a609-4823-abab-347283e29731_ECC-2-2024-AR-19092024-.pdf
+- https://cdn.nca.gov.sa/api/files/public/upload/94c6c5f5-4d70-4afd-a440-64369aa667e2_Guide-to-Essential-Cybersecurity-Controls-(ECC)-Implementation-en.pdf
+house: false
+maintainer_text: false
+last_checked: '2026-11-14'
+signup_required: 'no'

@@ -1,0 +1,109 @@
+name: Register a resource
+description: Ask for a free or open GRC resource to be listed in the Brivellis Open GRC Index.
+title: "Register: <resource name>"
+labels: ["registration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for registering. Please read the [listing rules](https://github.com/brivellis/open-grc-index/blob/main/LISTING-RULES.md) first.
+        Listing is free and cannot be bought; entries are alphabetical and never ranked.
+        **Do not put personal data (emails, phone numbers) in this issue** — it is public.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Main link (https://)
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source code or download repository (if different)
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Open-source tool
+        - Free template or kit
+        - Free course
+        - MCP server or AI connector
+        - Open dataset or mapping
+        - Official free guidance
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Open source
+        - Free
+        - Free tier (usable without a sales call, card or trial clock)
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      description: SPDX identifier if there is one (e.g. Apache-2.0, AGPL-3.0-only, CC-BY-4.0), otherwise the name of the terms.
+    validations:
+      required: true
+  - type: checkboxes
+    id: frameworks
+    attributes:
+      label: Frameworks it helps with
+      options:
+        - label: ISO/IEC 27001
+        - label: ISO/IEC 20000-1
+        - label: ISO 22301
+        - label: ISO/IEC 42001
+        - label: NIST CSF 2.0
+        - label: NCA ECC (Saudi Arabia)
+        - label: SAMA CSF (Saudi Arabia)
+        - label: PDPL (Saudi Arabia)
+        - label: UAE IA standard
+        - label: Many frameworks (multi-framework)
+  - type: textarea
+    id: summary
+    attributes:
+      label: What it is and who it is for
+      description: 1–2 plain sentences. We may rewrite it in the index's style; tell us if you want your own wording marked as maintainer-supplied.
+    validations:
+      required: true
+  - type: dropdown
+    id: signup
+    attributes:
+      label: Must users give personal data (e.g. an email) to get or use it?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: input
+    id: mcp
+    attributes:
+      label: MCP server documentation (link, if any)
+  - type: input
+    id: api
+    attributes:
+      label: API documentation (link, if any)
+  - type: input
+    id: arabic
+    attributes:
+      label: Arabic interface or edition (link, if any)
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: I maintain this resource or have the maintainer's agreement to register it.
+          required: true
+        - label: It does not reproduce standards text without the right to do so, and is not an exam dump.
+          required: true

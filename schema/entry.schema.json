@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/brivellis/open-grc-index/schema/entry.schema.json",
+  "title": "Brivellis Open GRC Index entry",
+  "description": "One free or open GRC resource. One YAML file per entry in entries/, named <id>.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "name", "type", "url", "maintainer", "summary", "licence", "cost",
+    "frameworks", "deployment", "signup_required", "arabic", "ai_ready",
+    "house", "last_checked", "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 60,
+      "description": "Lower-case slug; must equal the file name without .yaml."
+    },
+    "name": { "type": "string", "minLength": 2, "maxLength": 80 },
+    "type": {
+      "enum": [
+        "open-source-tool",
+        "free-template",
+        "free-course",
+        "mcp-server",
+        "open-dataset",
+        "official-guidance"
+      ]
+    },
+    "url": { "type": "string", "pattern": "^https://" },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://",
+      "description": "Source code or download repository, if different from url."
+    },
+    "maintainer": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80,
+      "description": "Organisation or project that maintains it. No private individuals' personal details."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 300,
+      "description": "What it is and who it is for, in the index's own words. No marketing claims, no clause or control titles."
+    },
+    "licence": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 60,
+      "description": "SPDX identifier where one exists (e.g. AGPL-3.0-only, Apache-2.0, CC-BY-4.0); otherwise 'free-to-use (terms)' or 'public-sector document'."
+    },
+    "cost": {
+      "enum": ["open-source", "free", "free-tier"],
+      "description": "free-tier = a free plan usable without a sales call; the entry describes the free plan only."
+    },
+    "frameworks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "iso-iec-27001",
+          "iso-iec-20000-1",
+          "iso-22301",
+          "iso-iec-42001",
+          "nist-csf-2",
+          "nca-ecc",
+          "sama-csf",
+          "ksa-pdpl",
+          "uae-ia",
+          "multi-framework"
+        ]
+      }
+    },
+    "regions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": ["global", "gcc", "ksa", "uae", "eu", "uk", "us"] }
+    },
+    "deployment": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["download", "self-hosted", "hosted", "local-app", "online-course", "document"] }
+    },
+    "signup_required": {
+      "enum": ["yes", "no", "unknown"],
+      "description": "Does a user have to give personal data (e.g. an email) to get or use it?"
+    },
+    "arabic": {
+      "enum": ["yes", "no", "unknown"],
+      "description": "Arabic interface or Arabic edition available. 'yes' needs a source in sources."
+    },
+    "ai_ready": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mcp", "api", "llms_txt"],
+      "properties": {
+        "mcp": { "enum": ["yes", "no", "unknown"] },
+        "mcp_source": { "type": "string", "pattern": "^https://" },
+        "api": { "enum": ["yes", "no", "unknown"] },
+        "api_source": { "type": "string", "pattern": "^https://" },
+        "llms_txt": { "enum": ["yes", "no", "unknown"] },
+        "llms_txt_source": { "type": "string", "pattern": "^https://" }
+      },
+      "description": "'yes' only when the maintainer documents it, with the page in *_source. 'unknown' does not mean 'no'."
+    },
+    "house": {
+      "type": "boolean",
+      "description": "true for Brivellis's own resources. Shown labelled 'House', never ranked above others."
+    },
+    "maintainer_text": {
+      "type": "boolean",
+      "default": false,
+      "description": "true when the summary was supplied by the maintainer rather than written by the index; shown as such."
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$",
+      "description": "Date the facts were last checked against the sources (YYYY-MM-DD)."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^https://" },
+      "description": "Public pages that support the facts in this entry."
+    }
+  }
+}
