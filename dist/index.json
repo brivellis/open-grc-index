@@ -5,7 +5,7 @@
   "source": "https://github.com/brivellis/open-grc-index",
   "data_licence": "CC-BY-4.0",
   "last_checked": "2026-11-14",
-  "count": 22,
+  "count": 18,
   "types": {
     "open-source-tool": "Open-source tool",
     "free-template": "Free template or kit",
@@ -165,14 +165,10 @@
         "iso-iec-27001",
         "iso-22301",
         "iso-iec-42001",
-        "nist-csf-2",
-        "nca-ecc",
-        "sama-csf",
-        "ksa-pdpl"
+        "nist-csf-2"
       ],
       "regions": [
-        "global",
-        "ksa"
+        "global"
       ],
       "deployment": [
         "self-hosted"
@@ -295,41 +291,6 @@
       "regions": [
         "global"
       ],
-      "maintainer_text": false,
-      "last_checked": "2026-11-14",
-      "signup_required": "no"
-    },
-    {
-      "id": "nca-ecc",
-      "name": "Essential Cybersecurity Controls (ECC 2-2024)",
-      "type": "official-guidance",
-      "url": "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
-      "maintainer": "National Cybersecurity Authority (Saudi Arabia)",
-      "summary": "Saudi Arabia's national baseline of cybersecurity controls, with a free implementation guide, published by the regulator.",
-      "licence": "Public-sector document",
-      "cost": "free",
-      "frameworks": [
-        "nca-ecc"
-      ],
-      "regions": [
-        "ksa"
-      ],
-      "deployment": [
-        "document"
-      ],
-      "arabic": "yes",
-      "ai_ready": {
-        "mcp": "unknown",
-        "api": "unknown",
-        "llms_txt": "unknown"
-      },
-      "sources": [
-        "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/",
-        "https://cdn.nca.gov.sa/api/files/public/upload/86e09090-44e4-481f-bc28-355673607654_ECC--2024-EN.pdf",
-        "https://cdn.nca.gov.sa/api/public/cms/files/e4c81aa9-a609-4823-abab-347283e29731_ECC-2-2024-AR-19092024-.pdf",
-        "https://cdn.nca.gov.sa/api/files/public/upload/94c6c5f5-4d70-4afd-a440-64369aa667e2_Guide-to-Essential-Cybersecurity-Controls-(ECC)-Implementation-en.pdf"
-      ],
-      "house": false,
       "maintainer_text": false,
       "last_checked": "2026-11-14",
       "signup_required": "no"
@@ -506,38 +467,6 @@
       }
     },
     {
-      "id": "ksa-pdpl-sdaia",
-      "name": "Personal Data Protection Law (SDAIA knowledge centre)",
-      "type": "official-guidance",
-      "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter",
-      "maintainer": "Saudi Data and AI Authority (SDAIA)",
-      "summary": "Official home of Saudi Arabia's personal data protection law, its implementing regulation, the data transfer regulation and guidelines.",
-      "licence": "Public-sector document",
-      "cost": "free",
-      "frameworks": [
-        "ksa-pdpl"
-      ],
-      "regions": [
-        "ksa"
-      ],
-      "deployment": [
-        "document"
-      ],
-      "arabic": "yes",
-      "sources": [
-        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter"
-      ],
-      "house": false,
-      "maintainer_text": false,
-      "last_checked": "2026-11-14",
-      "signup_required": "no",
-      "ai_ready": {
-        "mcp": "unknown",
-        "api": "unknown",
-        "llms_txt": "unknown"
-      }
-    },
-    {
       "id": "probo",
       "name": "Probo",
       "type": "open-source-tool",
@@ -606,38 +535,6 @@
       "regions": [
         "global"
       ],
-      "maintainer_text": false,
-      "last_checked": "2026-11-14",
-      "signup_required": "no"
-    },
-    {
-      "id": "sama-csf",
-      "name": "SAMA Cyber Security Framework",
-      "type": "official-guidance",
-      "url": "https://rulebook.sama.gov.sa/en/entiresection/3850",
-      "maintainer": "Saudi Central Bank (SAMA)",
-      "summary": "Cybersecurity framework for organisations regulated by the Saudi Central Bank, published in the SAMA rulebook.",
-      "licence": "Public-sector document",
-      "cost": "free",
-      "frameworks": [
-        "sama-csf"
-      ],
-      "regions": [
-        "ksa"
-      ],
-      "deployment": [
-        "document"
-      ],
-      "arabic": "unknown",
-      "ai_ready": {
-        "mcp": "unknown",
-        "api": "unknown",
-        "llms_txt": "unknown"
-      },
-      "sources": [
-        "https://rulebook.sama.gov.sa/en/entiresection/3850"
-      ],
-      "house": false,
       "maintainer_text": false,
       "last_checked": "2026-11-14",
       "signup_required": "no"
@@ -741,38 +638,6 @@
       "regions": [
         "global"
       ],
-      "maintainer_text": false,
-      "last_checked": "2026-11-14",
-      "signup_required": "no"
-    },
-    {
-      "id": "uae-ia-regulation",
-      "name": "UAE Information Assurance Regulation",
-      "type": "official-guidance",
-      "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation",
-      "maintainer": "UAE Government (developed by TDRA)",
-      "summary": "Information assurance requirements for entities in the UAE, mandatory for those designated as critical; published on the UAE Government portal.",
-      "licence": "Public-sector document",
-      "cost": "free",
-      "frameworks": [
-        "uae-ia"
-      ],
-      "regions": [
-        "uae"
-      ],
-      "deployment": [
-        "document"
-      ],
-      "arabic": "unknown",
-      "ai_ready": {
-        "mcp": "unknown",
-        "api": "unknown",
-        "llms_txt": "unknown"
-      },
-      "sources": [
-        "https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/uae-information-assurance-regulation"
-      ],
-      "house": false,
       "maintainer_text": false,
       "last_checked": "2026-11-14",
       "signup_required": "no"

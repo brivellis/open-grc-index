@@ -12,12 +12,8 @@ frameworks:
 - iso-22301
 - iso-iec-42001
 - nist-csf-2
-- nca-ecc
-- sama-csf
-- ksa-pdpl
 regions:
 - global
-- ksa
 deployment:
 - self-hosted
 arabic: 'yes'

@@ -9,7 +9,7 @@ A free, open index of governance, risk and compliance (GRC) resources:
 - **open datasets and mappings**
 - **official free guidance**
 
-It covers ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001 and NIST CSF 2.0, plus Gulf frameworks: NCA ECC, SAMA CSF, the Saudi PDPL and the UAE Information Assurance standard.
+It covers ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001 and NIST CSF 2.0.
 
 The index is published at **https://brivellis.com/open-grc-index/** and as data at **https://brivellis.com/open-grc-index/index.json**.
 

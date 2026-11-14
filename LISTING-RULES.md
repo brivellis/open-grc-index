@@ -15,10 +15,6 @@ It helps with at least one framework the index covers:
 - ISO 22301
 - ISO/IEC 42001
 - NIST CSF 2.0
-- NCA ECC
-- SAMA CSF
-- the Saudi PDPL
-- the UAE IA standard
 
 "Multi-framework" is used when it covers many.
 

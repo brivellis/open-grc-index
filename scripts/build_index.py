@@ -51,7 +51,7 @@ def main() -> int:
     lines = [
         "# Brivellis Open GRC Index",
         "",
-        "> A free, open index of GRC resources (open-source tools, free kits, free courses, MCP servers, open datasets, official guidance) for ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001, NIST CSF 2.0 and Gulf frameworks (NCA ECC, SAMA CSF, KSA PDPL, UAE IA). Alphabetical, sourced, nothing paid or ranked. Entries marked House are Brivellis's own.",
+        "> A free, open index of GRC resources (open-source tools, free kits, free courses, MCP servers, open datasets, official guidance) for ISO/IEC 27001, ISO/IEC 20000-1, ISO 22301, ISO/IEC 42001 and NIST CSF 2.0. Alphabetical, sourced, nothing paid or ranked. Entries marked House are Brivellis's own.",
         "",
         f"- Full data (JSON): {SITE}/index.json",
         "- Source and registration: https://github.com/brivellis/open-grc-index",
